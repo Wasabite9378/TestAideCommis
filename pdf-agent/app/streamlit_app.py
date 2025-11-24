@@ -23,7 +23,7 @@ def load_resources():
     return model, index, chunk_texts, meta['mapping']
 
 st.title('🔍 Agent PDF Local')
-st.write('Posez une question, l'agent va chercher dans vos PDF.')
+st.write("Posez une question, l'agent va chercher dans vos PDF.")
 question = st.text_input('Votre question :', placeholder='Ex: Quelle est la procédure X ?')
 top_k = st.slider('Nombre de résultats :', 1, 10, 5)
 
