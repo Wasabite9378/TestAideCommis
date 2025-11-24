@@ -1,10 +1,7 @@
-
+streamlit
 pdfplumber
 pdf2image
 pillow
 pytesseract
 sentence-transformers
 faiss-cpu
-fastapi
-uvicorn[standard]
-streamlit
